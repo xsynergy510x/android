@@ -557,4 +557,12 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+
+  <!-- My stuff -->
+  <!-- My Fork of SaberMod Official Toolchains 4.8-4.9 combo -->
+  <project name="xsynergy510x/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-SM-Combo" remote="github" revision="master" />
+  <project name="xsynergy510x/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-Combo" remote="github" revision="master" />
+
+  <!-- Get proprietary stuff form TheMuppets -->
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 </manifest>
